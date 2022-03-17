@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser.git", from: "1.0.0"),
-        .package(url: "https://github.com/jagreenwood/git-macOS.git", revision: "5418a00"),
+        .package(url: "https://github.com/way-to-code/git-macOS.git", from: "2.1.0"),
         .package(url: "https://github.com/tuist/XcodeProj.git", from: "8.7.0")
          
     ],

@@ -12,11 +12,11 @@
       },
       {
         "package": "Git",
-        "repositoryURL": "https://github.com/jagreenwood/git-macOS.git",
+        "repositoryURL": "https://github.com/way-to-code/git-macOS.git",
         "state": {
-          "branch": "5418a00",
-          "revision": "5418a00a843e11e5012c8dc11d14c549ea360421",
-          "version": null
+          "branch": null,
+          "revision": "df72ba4322d5b20a2e56c86ec0bada27c1b60b74",
+          "version": "2.1.0"
         }
       },
       {

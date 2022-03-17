@@ -36,7 +36,6 @@ fileprivate enum Constants {
     static let bundleVersionKey = "CFBundleShortVersionString"
 }
 
-
 @main
 struct XCBump: ParsableCommand {
     @Option(help: "Path of the project file")
@@ -82,8 +81,8 @@ struct XCBump: ParsableCommand {
             try repo.commit(options: GitCommitOptions(message: "version", files: .all))
             try repo.tag(
                 options: .annotate(
-                    "\(project.getVersion())(\(project.getBuild()))",
-                    "Version bumped with XCBump")
+                    tag: "\(project.getVersion())(\(project.getBuild()))",
+                    message: "Version bumped with XCBump")
             )
         }
     }
