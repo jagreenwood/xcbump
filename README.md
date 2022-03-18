@@ -2,6 +2,8 @@
 
 `xcbump` is a small cli utility which will bump the build number of an Xcode project. It can optionally explicitly set version, build, and tag HEAD.
 
+## Install
+
 ### 🌱 Mint (recommended)
 
 `mint install jagreenwood/xcbump`
@@ -14,7 +16,7 @@ Clone this repo and build the executable:
 
 Copy the resulting binary at `.build/release/xcbump` to a location where it can be executed like `/usr/local/bin` 
 
-### Usage
+## Usage
 
 ```
 OPTIONS:
